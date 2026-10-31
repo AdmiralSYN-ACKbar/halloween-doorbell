@@ -1,0 +1,17 @@
+# Secrets and local state
+.env
+lcd_home.json
+
+# Visit logs and test photos show visitors: never publish them
+visit-log/
+*.jpg
+*.png
+*.html
+!assets/**/*.png
+assets/**/*-explained.png
+
+# Working files for the graphics
+assets/*.zip
+assets/**/*.txt
+
+__pycache__/
